@@ -23,7 +23,7 @@ pipeline {
                     docker rm -f angular-basic-container || true
                     docker run -d \
                       --name angular-basic-container \
-                      -p 4200:80 \
+                      -p 5200:80 \
                       angular-basic-app:latest
                 '''
             }
